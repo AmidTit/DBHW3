@@ -20,4 +20,4 @@ WHERE NOT name like '%% %%';
 
 --Название треков, которые содержат слово «мой» или «my».
 SELECT name FROM track 
-WHERE name ILIKE '%%i%%';
+WHERE name ILIKE '%%my%%';
